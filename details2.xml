@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<DocumentElement>
+  <Details>
+    <Firstname>Sahana</Firstname>
+    <Lastname>MG</Lastname>
+    <Email>SahanaMG@gmail.com</Email>
+    <Mobile>9089876543</Mobile>
+    <Location>Absolute Barbeque</Location>
+    <Lati>12.950127</Lati>
+    <Longi>77.699008</Longi>
+  </Details>
+  <Details>
+    <Firstname>Divya</Firstname>
+    <Lastname>Pandit</Lastname>
+    <Email>DivyaPandit@gmail.com</Email>
+    <Mobile>9893451827</Mobile>
+    <Location>More Megastore</Location>
+    <Lati>12.948381</Lati>
+    <Longi>77.698739</Longi>
+  </Details>
+  <Details>
+    <Firstname>Shruthi</Firstname>
+    <Lastname>Bhutra</Lastname>
+    <Email>ShruthiBhutra@gmail.com</Email>
+    <Mobile>9096782534</Mobile>
+    <Location>ICICI Bank</Location>
+    <Lati>12.950116</Lati>
+    <Longi>77.699769</Longi>
+  </Details>
+</DocumentElement>

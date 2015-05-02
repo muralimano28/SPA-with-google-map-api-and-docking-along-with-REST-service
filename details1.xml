@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?> 
+<DocumentElement>
+  <Details>
+    <Firstname>Murali</Firstname>
+    <Lastname>Manohar</Lastname>
+    <Email>muralimano28@gmail.com</Email>
+    <Mobile>9952923967</Mobile>
+    <Location>Innovative Multiplex</Location>
+    <Lati>12.952113</Lati>
+    <Longi>77.699587</Longi>
+  </Details>
+  <Details>
+    <Firstname>Ajitha</Firstname>
+    <Lastname>Sekar</Lastname>
+    <Email>sekaraji1992@gmail.com</Email>
+    <Mobile>9003482003</Mobile>
+    <Location>Park Plaza</Location>
+    <Lati>12.950420</Lati>
+    <Longi>77.699147</Longi>
+  </Details>
+  <Details>
+    <Firstname>sujitha</Firstname>
+    <Lastname>sekar</Lastname>
+    <Email>sekarsuji1994@gmail.com</Email>
+    <Mobile>9090343467</Mobile>
+    <Location>Elite Ford</Location>
+    <Lati>12.951298</Lati>
+    <Longi>77.700102</Longi>
+  </Details>
+</DocumentElement>

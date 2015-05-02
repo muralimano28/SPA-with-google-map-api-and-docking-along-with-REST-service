@@ -1,0 +1,28 @@
+<!-- body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
+  overflow: hidden;
+  position:fixed;
+} -->
+
+.my-dock-manager {
+}
+
+.googleMap{
+  height:400px;
+  width:1920px;
+  
+}
+.tableWindow{
+  height:550px;
+  width:1920px;
+}
+
+.Footer{
+    height : 50px;
+    width : 1920px;
+}

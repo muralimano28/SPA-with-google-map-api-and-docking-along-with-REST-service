@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Geolocation</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <link rel="stylesheet" href="./resources/css/font-awesome.css">
+    <link rel="stylesheet" href="./resources/css/dock-manager.css">
+    <link rel = "stylesheet" href = "geo_location.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src = "http.js"></script>
+  </head>
+ 
+  <body ng-app = "myApp">   
+    <div id = "my_dock_manager">
+    </div>
+    <div id = "myMap" caption = "Google Map" icon="icon-circle-arrow-right" class = "googleMap">
+    </div>
+    <div id = "myTable" caption = "Table" class = "tableWindow" ng-controller = "showData">
+      <div class="navbar navbar-default">
+        <ul class="nav nav-pills" ng-init = "tab = 1">
+          <li role="presentation" class="active" ng-class = "{active:tab===1}">
+            <a href ng-click = "tab = 1">TAB 1</a>
+          </li>
+          <li role="presentation" ng-class = "{active:tab===2}">
+            <a href ng-click = "tab = 2">TAB 2</a>
+          </li>
+            
+          <table id = "myTable1" ng-show = "tab===1"class="table table-hover">
+            <caption>Table 1</caption>
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Location</th>
+                <th>Mobile Number</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat = "x in table1">
+                <td>{{x.Firstname}}</td>
+                <td>{{x.Lastname}}</td>
+                <td>{{x.Email}}</td>
+                <td>{{x.Location}}</td>
+                <td>{{x.Mobile}}</td>
+                <td>{{x.Lati}}</td>
+                <td>{{x.Longi}}</td>
+              </tr>
+            </tbody>
+          </table>
+          <table id = "myTable2" ng-show = "tab===2" class="table table-hover">
+            <caption>Table 2</caption>
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Location</th>
+                <th>Mobile Number</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat = "x in table2">
+                <td>{{x.Firstname}}</td>
+                <td>{{x.Lastname}}</td>
+                <td>{{x.Email}}</td>
+                <td>{{x.Location}}</td>
+                <td>{{x.Mobile}}</td>
+                <td>{{x.Lati}}</td>
+                <td>{{x.Longi}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </ul> 
+      </div>
+    </div>
+    <div id = "myFooter" class = "Footer">
+      <p>&#169; 2015 Aricent Inc. All rights reserved.</p>
+    </div>
+    <script type="application/dart" src="geo_location.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
